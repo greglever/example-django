@@ -1,0 +1,14 @@
+version: '2'
+services:
+  db:
+    image: postgres
+  example_app:
+    build: .
+    command: ./build_script.sh
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+

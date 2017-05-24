@@ -1,0 +1,11 @@
+# testing related packages
+mock==2.0.0
+
+# postgres-related packages
+psycopg2==2.6.1
+
+# Django-related packages
+Django==1.11.1
+djangorestframework==3.6.3
+django-rest-swagger==2.1.2
+django-filter==1.0.4

@@ -19,4 +19,4 @@ example_app_1  | Quit the server with CONTROL-C.
 and if you navigate to [http://0.0.0.0:8000/api/docs](http://0.0.0.0:8000/api/docs) then you should see a page that looks
 like the following:
 
-![Example Swagger Page](/example_swagger_page.jpg?raw=true)
+![Example Swagger Page](/example_swagger_page.png?raw=true)
